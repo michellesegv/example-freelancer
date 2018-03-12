@@ -9,7 +9,7 @@ const Intro = ({ _ }) => {
       </figure>
       <h1 className='text-uppercase font-weight-bold'>start bootstrap</h1>
       <div>
-        <p className="star">☆</p>
+        <p className='star'>☆</p>
         <p className='font-15'>Web Developer - Graphic Artist - User Experience Designer</p>
       </div>
     </section>

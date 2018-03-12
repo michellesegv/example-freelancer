@@ -12,8 +12,6 @@ const Navbar = ({items}) => {
 		        {items.map((item, i) => <ItemNavbar item={item} key={i} />)}
           </ul>
         </div>
-
-
       </nav>
     </header>
   )
