@@ -6,7 +6,7 @@ const Intro = ({ _ }) => {
     <section id='intro' className='main-center width-100 height-700'>
       <div className='width-85'>
         <figure className='main-center pad-15'>
-          <img src='https://lh5.googleusercontent.com/FlFuCqLY1rJ5cheLxmCgwiKfbAAqbqDHCsFQ98yD7-4Do0YS-J9t2aXCpmFv_AKWV2VsoyKq721XaCyGE5J7=w1366-h662' alt='profile' />
+          <img src='https://user-images.githubusercontent.com/25906896/37291128-fe7d82a2-25db-11e8-847f-02b0a3e71d5c.png' alt='profile' />
         </figure>
         <div className='cross-center column'>
           <h1 className='uppercase font-42'>start bootstrap</h1>
