@@ -38,12 +38,7 @@ module.exports = {
           { loader: 'style-loader' },
           { loader: 'css-loader' }
         ]
-       }//,
-      // {
-      //   test: /\.ttf$/,
-      //   loader: "url-loader", // or directly file-loader
-      //   include: resolve(__dirname, "src/assets/fonts/"),
-      // },
+       }
     ]
   },
   plugins: [

@@ -10,9 +10,6 @@ module.exports = {
     filename: 'app.min.js',
     path: resolve(__dirname, 'dist'),
     publicPath: ''
-    /*
-    filename: 'bundle.js',
-*/
   },
   module: {
     rules: [
