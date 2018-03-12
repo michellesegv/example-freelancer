@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js --progress --profile --colors"
+    "start": "webpack-dev-server --config webpack.config.dev.js"
   },
   "keywords": [],
   "author": "Michelle Seguil <seguilvilchezmichelle@gmail.com>",
