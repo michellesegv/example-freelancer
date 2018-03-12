@@ -2,24 +2,25 @@ const { resolve } = require('path')
 
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-// 
+
 module.exports = {
   context:  resolve(__dirname, 'src'),
-  entry: './index.js',
-  output: {
-    filename: 'app.min.js',
-    path: resolve(__dirname, 'dist'),
+  entry: './index.js', // archivo de entrada
+  output: { // archivos de salida
+    filename: 'app.min.js', // archivo de salida
+    path: resolve(__dirname, 'dist'), // ruta donde va a estar el archivo, si deseo que sea aqui mismo pongo _dirname
     publicPath: ''
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.js$/, // todos los `js`
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: 'babel-loader', // ignoramos archivos dentro de node_modules
           options: {
-            presets: [
+            // Config babel
+            presets: [ 
               'env',
               'react',
               'react-boilerplate'
@@ -28,11 +29,11 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
+        test: /\.css$/, // todos los archivos `css`
         exclude: /node_modules/,
         use: [
-          { loader: 'style-loader' },
-          { loader: 'css-loader' }
+          { loader: 'style-loader' }, // primero creamos un tag `style`
+          { loader: 'css-loader' } // y le injetamos el `css`
         ]
       }
     ]
