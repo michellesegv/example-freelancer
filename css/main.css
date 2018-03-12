@@ -48,7 +48,7 @@ header .row .pad-15:hover {
   color: #18bc9c;
 }
 
-#intro, #about {
+#start-bootstrap, #about {
   background-color: #18bc9c;
   padding-top: 180px;
 }
@@ -144,94 +144,6 @@ h3 {
   font-size: 0.9rem;
   padding: 20px 0;
   text-align: center;
-}
-
-
-/** Estilos reutilizables **/
-.width-100 {
-  width: 100%;
-}
-
-.width-85 {
-  width: 85%;
-}
-
-.width-53 {
-  width: 53%;
-}
-
-.width-33 {
-  width: 33.333%
-}
-
-.uppercase {
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.main-between {
-  display: flex;
-  justify-content: space-between;
-}
-
-.cross-between {
-  display: flex;
-  align-items: space-between;
-}
-
-.main-around {
-  display: flex;
-  justify-content: space-around;
-}
-
-.wrap {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-.main-center {
-  display: flex;
-  justify-content: center;
-}
-
-.cross-center {
-  display: flex;
-  align-items: center;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.font-09 {
-  font-size: 0.9rem;
-}
-
-.font-15 {
-  font-size: 1.5rem;
-}
-
-.font-17 {
-  font-size: 1.7rem;
-}
-
-.font-42 {
-  font-size: 4.2rem;
-}
-
-.pad-15 {
-  padding: 15px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.back-green {
-  background-color: #18bc9c;
 }
 .star{
   font-size: 50px;
