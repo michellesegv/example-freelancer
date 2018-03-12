@@ -11,9 +11,16 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
-      <Navbar items={['intro', 'portfolio', 'footer']} />
+      <Navbar items={ ['intro', 'portfolio', 'footer'] } />
       <Intro />
-      <Portfolio imgs={[{ src: 'https://lh5.googleusercontent.com/DyvYNsTWKYJNjnskCdBCO8mQncommsD6c4Ps9gVSOt8Qp8sR6YJ9Cku5kk9qzOWwewyUaFHFt1NMyyWuNHMP=w1366-h662-rw', alt: 'Cabaña' }, { src: 'https://lh5.googleusercontent.com/UY42kpZQQ5oIpHh5NPQ_8_xs74psDpd1C840rfiR-9Um7VtPEy_K4Qbr14Bq-jn17oo194ZgSgJyoJJ9S4wq=w1366-h662-rw', alt: 'Pastel' }, { src: 'https://lh6.googleusercontent.com/tkunzY8wYKlmEYlNRiRYuv0nsk316bkQLLWRdYDwmdqy7YsA51ExTLeqSgUvM_4yWqWNOdvEycEJXMOOHfjs=w1366-h662-rw', alt: 'Circo' }, { src: 'https://lh5.googleusercontent.com/_56zg2uxnX6VwuH1D_YLzB70Z2yqjgQpoOLOIIBR-AVXdzDD06FQwoW7BLimopOCb5WyTVvgXjt5eMdRfKn7=w1366-h662-rw', alt: 'Game' }, { src: 'https://lh6.googleusercontent.com/vcg6JMkZMqw3knLQAqsuG1MYTrdwxV42c4o4pWSZCqSWnvwjDhnhbNUzHY0Lmb_MeSLKuPK-VC3q4aryTusG=w1366-h662-rw', alt: 'Seguridad' }, { src: 'https://lh3.googleusercontent.com/FnYDn8HJKXYOWcnLcVo66BuG_sm8-d2RkdUlXTWq_UI6bkx02DvSLMWQzORWndmUhgk_1cDP7nrXA5mlDDla=w1366-h662-rw', alt: 'Submarino' }]} />
+      <Portfolio imgs={ [
+        { src: 'https://user-images.githubusercontent.com/25906896/37288626-c3485b40-25d5-11e8-8e4e-6c6671573498.png', alt: 'cabin' },
+        { src: 'https://user-images.githubusercontent.com/25906896/37288782-248ab5a6-25d6-11e8-8282-cb56b4a7884d.png', alt: 'cake' },
+        { src: 'https://user-images.githubusercontent.com/25906896/37288846-44becca4-25d6-11e8-969a-9e686dd905ff.png', alt: 'circus' },
+        { src: 'https://user-images.githubusercontent.com/25906896/37288873-517cd80a-25d6-11e8-9e25-9455f4265e8c.png', alt: 'game' },
+        { src: 'https://user-images.githubusercontent.com/25906896/37288935-7b5169a2-25d6-11e8-815a-4624e95f1acd.png', alt: 'safe' },
+        { src: 'https://user-images.githubusercontent.com/25906896/37288957-8979c100-25d6-11e8-933b-5ec047541536.png', alt: 'submarine' }
+        ]} />
       <Footer>
         <ItemFooter title={'location'}>
           3481 Melrose Place Beverly Hills, CA 90210
